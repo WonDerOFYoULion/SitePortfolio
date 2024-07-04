@@ -1,0 +1,55 @@
+@mixin ContainerForHeader {
+  width: 1730px;
+  height: 100%;
+  margin: 0px auto;
+  @media (max-width: 1730px) {
+    width: 100%;
+    padding: 0px 43px;
+  }
+  @media (max-width: 500px) {
+    width: 100%;
+    padding: 0px 18px;
+  }
+}
+
+@mixin ContainerForMain {
+  width: 1730px;
+  height: 100%;
+  margin: 95px auto 0px;
+}
+
+@mixin BorderBottom {
+  border-bottom: 1px solid rgb(215, 167, 58);
+}
+
+@mixin White33 {
+  color: rgb(229, 230, 228);
+  font-size: 33px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  @media (max-width: 500px) {
+    font-size: 25px;
+  }
+}
+
+@mixin White50 {
+  color: rgb(229, 230, 228);
+  font-size: 50px;
+  line-height: 150%;
+  letter-spacing: 1px;
+  @media (max-width: 500px) {
+    font-size: 29px;
+  }
+}
+
+@mixin Yellow30 {
+  color: rgb(218, 183, 87);
+  font-size: 30px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  @media (max-width: 500px) {
+    font-size: 19px;
+  }
+}
+
+

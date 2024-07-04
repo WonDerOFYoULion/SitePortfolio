@@ -1,0 +1,17 @@
+@import '../../MIxin-and-defolt/mixins.scss';
+.main {
+  @include BorderBottom;
+  .container {
+    @include ContainerForMain;
+    .mainFlex {
+      display: flex;
+      justify-content: space-between;
+      .h2 {
+        @include White50;
+      }
+      .h3 {
+        @include Yellow30;
+      }
+    }
+  }
+}
